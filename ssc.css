@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(71, 66, 75);
+}
+.header{border-style: solid;border-width: 5px;
+border-color: red;border-radius: 10px;
+width: 150px;color: rgb(253, 5, 46);
+padding: 7px 50px;
+background-color: white;
+font-size: 18px;text-shadow: black;
+margin-left: 530px;box-shadow: 4px 4px green;
+}
+.middle{
+   border: 5px solid red;
+   border-radius: 10px;
+   text-align: center;
+   position: absolute;width: 100%;height: 500px;
+   display: auto;font-size: 20px;text-shadow: 4px 4px burlywood;
+}
+.box1{background-color: white;
+    width: 150px;padding: 5px;
+    border-style:solid;border-color:red;
+    line-height: 30px;border-width: 10px;
+    position: relative;
+}
+.box2{background-color: white;
+    width: 120px;height:100px;padding: 10px;
+    border-style:solid;border-color:red;
+    position: relative;border-width: 10px;
+    margin: -210px 0px 0px  1360px;
+    text-align: center;
+    background-image: url("./bg.jpg");
+}
+.box3{background-color: white;
+    width: 140px;padding: 10px;
+    border-style:solid;border-color:red;
+    position: absolute;border-width: 10px;
+    margin: 170px 0px 0px 0px;
+ 
+}
+.box4{background-color: white;
+    width: 120px;padding: 10px;text-decoration: underline;
+    border-style:solid;border-color:red;
+    position: relative;border-width: 10px;
+    margin: 205px 0px 0px 1360px;
+
+}
+.submitbutton{
+    width: 70px;
+}
+.grids{text-align: center;width: 700px;height: 500px;
+    display:grid;background-color: blue;line-height: 25px;
+    position: relative;
+    border: solid 8px blue;
+    grid-template-columns: auto auto;
+    gap: 10px;margin:600px 300px  ;
+}
+.headcol{padding: 20px;background-color: yellow;
+grid-column-start:1 ;
+grid-column-end:3;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.col1{
+background-color: yellow;
+}
+.col2{
+background-color: yellow;
+}
+.col3{
+background-color: yellow;
+grid-column-start: 1;
+grid-column-end: 3;
+clear:right;
+}
+.fix{position: fixed;bottom: 300px;right: 600px;height: 40px;
+    border: solid 5px red;border-radius: 10px;background-color: yellow;
+    margin-top: 500vw;display: grid;grid-template-columns: auto auto;gap: 0px 10px;
+    font-size: larger;padding: 2px;box-shadow: 5px 5px green;
+}
+.tlarge{
+   font-size:20px;font-style: unset;
+}
+.tsmall{
+    font-size:15px;font-style: unset;
+}
